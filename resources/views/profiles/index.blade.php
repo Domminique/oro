@@ -16,7 +16,7 @@
          </div>
           <div class="d-flex">
             <div class="pr-5"><strong>153 </strong>Posts</div>
-            <div class="pr-5"><strong>23k </strong>followers</div>
+            <div class="pr-5"><strong>23k </strong>followers</div> 
             <div class="pr-5"><strong>212  </strong>Following</div>
           </div>
                                                               

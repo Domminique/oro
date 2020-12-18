@@ -137,7 +137,52 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+##My Learning Laravel journey Dec 18 2020
+
+Meeting Caroline at Distrikt
+
+Get your honey delivered, talk to digital mobility and logistic people
+intergrated delivery partners pick up when you have an order and deliver to your customer, buy online pickup curbside store if you like.,w3w
+
+Its important that we join hands to keep the lights on for our favourites businesses because if we keep the lights on for our favourite businesess, we save jobs.Jobs that will ensure children get their clothes, get fed, and get a good education.
+
+Jobs that will ensure that the people we love wont fall into poverty due to the global pandemic
+
+I work in hand in hand with Hillary and Caroline to fix the the bugs and ocean stratety ORO [ add/create/start , Reduce, increase, Stop/eliminate ]
+
+Focus on the part the produces value your personal MBA
+Sales, Marketing, Revenue
+
+ToDos from Hillary
+Have been on the site but have noted several things that need to be worked on .
+1.We need to approve the product or service the clients list on the site
+2.How to send invoive to clients a training on this
+3.Receipting after payments, A training on this
+4.Sellers report on the admin have a bug
+6.Shop reports on the admin side have a bug
+7.We need to adda a section where the clients have to choose between a service or product .. this is the case for those providing services such as legal department schools, but they arent't products... Pending Client
+
+TODOs From Caroline
+
+8.Checked my emails for Lazuli foods and no order. Fix this
+login to your shop, you see the orders
+what happened to the sms provider/ are we intergrating
+
+9. Yesterday I tried to load a product into a shop and it refused kabisa, you save but the product doents reflect
+
+relationship in Lareavel.
+
+Tasks
+
+1.We need to add a section where the clients have to choose between a service or product ..
+this is the case for those providing services such as legal department schools, but they arent't products... Pending Client
+
+Solution
+A service is a model, a service belongs to a user but a user can have many services this is a one to many relationship
+
+To the future me ;
+Dear Dominic..
+You cannot undo, but you should understand why that happened and how to prevent that from happening again in the future. This happened because Filezilla allows Drag-and-drop move functionality on both folders (directories) and files, very dangerous on production servers.
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 

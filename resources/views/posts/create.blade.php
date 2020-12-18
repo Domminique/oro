@@ -14,10 +14,10 @@
            
             <input id="caption" 
                    type="text" 
-                   class="form-control @error('caption') is-invalid @enderror" 
-                   value="{{ old('caption') }}" 
+                   class="form-control{{ $errors->has('caption') ? 'is-invalid' : ''}}" 
                    name="caption" 
-                   required autocomplete="caption" autofocus>
+                   value="{{ old('caption') }}" 
+                   autocomplete="caption" autofocus>
 
             @error('caption')
                
