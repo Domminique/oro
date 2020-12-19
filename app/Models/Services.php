@@ -9,7 +9,8 @@ class Services extends Model
 {
     use HasFactory;
 
-    // public function (){
+    public function user (){
+        return $this->belongsTo(User::class);
 
-    // }
+    }
 }

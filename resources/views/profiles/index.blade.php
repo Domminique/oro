@@ -11,7 +11,7 @@
          <div class="d-flex justify-content-between align-items-baseline">
          <h1>{{ $user->username}}</h1>
          <a   href="{{ route('register') }}"> 
-         <button class="btn btn-primary btn-large">Create a new Post</button></a>
+         <button class="btn btn-primary btn-large">Create a new Service</button></a>
          
          </div>
           <div class="d-flex">

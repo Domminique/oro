@@ -50,6 +50,8 @@ Route::get('/advertise', 'App\Http\Controllers\PagesController@advertise');
 
 Auth::routes();
 
+Route::get('/services/create', 'App\Http\Controllers\ServicesController@create');
+
 Route::get('/p/create', 'App\Http\Controllers\PostsController@create');
 Route::post('/p', 'App\Http\Controllers\PostsController@store');
 

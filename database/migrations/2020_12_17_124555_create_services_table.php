@@ -22,7 +22,7 @@ class CreateServicesTable extends Migration
             $table->text('business_type');
             $table->string('business_phone_number');
             $table->string('mobile_phone_number');
-            $table->string('subcounty');
+           // $table->string('subcounty');
             $table->string('email');
             $table->string('business_web_address');
             $table->string('image');
