@@ -20,8 +20,8 @@
             <div class="pr-5"><strong>212  </strong>Following</div>
           </div>
                                                               
-           <div class="pt-4"> <strong>{{$user->profile->title}}</strong> </div>
-          <div>{{$user->profile->description}}</div>
+           <div class="pt-4"> <strong>gdfgdgd</strong> </div>
+        
           <div>{{$user->profile->url ?? 'Rongai Noon'}}</div>
            <br>           
          </div>

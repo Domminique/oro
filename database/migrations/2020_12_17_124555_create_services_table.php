@@ -16,13 +16,12 @@ class CreateServicesTable extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id');
-            $table->string('name ');
-            $table->string('surname ');
-            $table->string('business_name ');
+            $table->string('name');
+            $table->string('surname');
+            $table->string('business_name');
             $table->text('business_type');
             $table->string('business_phone_number');
             $table->string('mobile_phone_number');
-           // $table->string('subcounty');
             $table->string('email');
             $table->string('business_web_address');
             $table->string('image');

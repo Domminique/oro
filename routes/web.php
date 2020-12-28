@@ -39,7 +39,7 @@ Status:	Retrieving directory listing of "/www"...
 
 Route::get('/', 'App\Http\Controllers\PagesController@index');
 
-Route::get('/write', 'App\Http\Controllers\PagesController@write');
+Route::get('/home', 'App\Http\Controllers\PagesController@write');
 
 Route::get('/learn', 'App\Http\Controllers\PagesController@learn');
 
@@ -51,6 +51,7 @@ Route::get('/advertise', 'App\Http\Controllers\PagesController@advertise');
 Auth::routes();
 
 Route::get('/services/create', 'App\Http\Controllers\ServicesController@create');
+Route::post('/services', 'App\Http\Controllers\ServicesController@store');
 
 Route::get('/p/create', 'App\Http\Controllers\PostsController@create');
 Route::post('/p', 'App\Http\Controllers\PostsController@store');

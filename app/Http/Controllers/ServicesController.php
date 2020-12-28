@@ -10,4 +10,26 @@ class ServicesController extends Controller
     public function create (){
         return view ('services.create');
     }
+
+    public function store(){
+
+        $data = request() -> validate([
+              'name' => 'required',
+              'surname' => ' ',
+              'business_name' => '',
+              'business_type' => '',
+              'business_phone_number' => '',
+              'mobile_phone_number' => '',
+              'email' => '',
+              'business_web_address' => '',
+              'image' => ['required','image']
+
+
+        ]);
+         auth()->user()->services()->create($data);
+        dd(request()->all());
+        // \App\Models\Services::create($data);
+        
+       
+    }
 }

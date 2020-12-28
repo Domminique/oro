@@ -18,12 +18,6 @@
                    name="caption" 
                    value="{{ old('caption') }}" 
                    autocomplete="caption" autofocus>
-
-            @error('caption')
-               
-                    <strong>{{ $message }}</strong>
-               
-            @enderror
         
      </div>
 
