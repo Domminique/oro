@@ -6,7 +6,14 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    //
+
+  
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function create (){
         return view ('services.create');
     }
@@ -28,7 +35,7 @@ class ServicesController extends Controller
         ]);
          auth()->user()->services()->create($data);
         dd(request()->all());
-        // \App\Models\Services::create($data);
+    
         
        
     }
